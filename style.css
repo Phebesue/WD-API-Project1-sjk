@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(49, 48, 48);
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+img{
+  color:whitesmoke
+}
+.masonry {
+  /* Masonry container */
+  column-count: 4;
+  column-gap: 1em;
+}
+
+.masonry-item {
+  /* Masonry bricks or child elements */
+  display: inline-block;
+  margin: 0 0 1em;
+  /* width: 100%; */
+}
+.masonry-content {
+  width: 100%;
+}
+/*Referenced https://w3bits.com/css-masonry/*/
