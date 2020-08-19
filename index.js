@@ -7,8 +7,8 @@ const masonry = document.querySelector(".masonry");
 
 fetch(baseURL)
   .then((result) => {
-    return result.json();
     console.log(result);
+    return result.json();
   })
   .then((data) => {
     displayImages(data);
